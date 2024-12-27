@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-30T08:41:13 IST" name="Default suite" finished-at="2024-09-30T08:41:30 IST" duration-ms="16892">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-30T08:41:13 IST" name="Default test" finished-at="2024-09-30T08:41:30 IST" duration-ms="16892">
+      <class name="playlistRunner.ProjectRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:13 IST" name="setUpClass" finished-at="2024-09-30T08:41:14 IST" duration-ms="1245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29592929]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T08:41:22 IST" duration-ms="8124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if create playlist is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Playlist API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T08:41:24 IST" duration-ms="1915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if featch playlist functionality is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Playlist API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T08:41:26 IST" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if update playlist functionality is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Playlist API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T08:41:28 IST" duration-ms="2030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search a Song"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:playlistRunner.ProjectRunner@433defed]" started-at="2024-09-30T08:41:28 IST" name="tearDownClass" finished-at="2024-09-30T08:41:30 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- playlistRunner.ProjectRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
